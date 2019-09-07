@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Instructor Notes
+
+      #Teens Learning Code: Digital Safety and Privacy
+
+      These notes cover both the full workshop and abridged meetup versions.
+
+      If you are running the abridged version, skip notes with this mark: **(F)**.
+
+      ##General Notes
+      * Due to the topics covered in the workshop, students may feel overly anxious or worried about their security. Avoid framing things too negatively and do your best to reassure them that there are good precautions they can take.
+      * You may wish to use the analogy at the end of the slides earlier during the workhop.
+      * People may have personal stories relating to the topics at hand. These anecdotes can help reinforce the material, but make sure you are not pressuring anyone for details they are uncomfortable with sharing.
+
+      ##Slide Setup
+      * Allow learners enough time to download learner files from slide 1. Check in as people are entering so the class can get started without delay.
+      * Make sure learners unzip learner files once they've been downloaded. The slides will not show any styles without unzipping, which is one of the most commonly encountered issues.
+      * Have a mentor help the learner install https://www.7-zip.org/ if they do not already have an archive tool installed.
+
+      ##Exercise Setup
+      * For the full day workshop, some of the exercises will require some paper. Have some pens and paper ready for the students.
+      * Small sheets or even sticky notes should be sufficient.
+
+      The following slides will contain notes for selected slides.
+    </script>
+  </section>
+
+  <section class="slide" data-markdown data-toc>
+    <script type="text/template">
+    #Passwords
+
+    #(F) - Get to know each other
+    * After the groups have introduced themselves to each other, prompt each group if anyone had similar traits or interests
+
+    #Our lives in a technological world
+    * Ask the class to give examples of risks
+    * If they're comfortable, ask for 1-2 examples they've heard of, but keep it brief
+
+    #Security and Privacy VS Convenience
+    * This slide is pre-emptively addresses people who put too little or too much effort into security
+
+    #(F) - Exercise 2
+
+    #Brute Force: Device
+    * Curious learners who want to learn where the 2 billion hash/s number comes from can check the source of the slides themselves
+
+    #Brute Force: Time to Crack
+    * Focus on the differences in password length and effect on time to crack
+    * The image of the crazy computer is a crypto mining rig, which can be converted to crack passwords
+
+    #Picking a password manager
+    * Some mobile phones and browsers come with their own password managers as well, but these are limited to the platform and not portable
+
+    #Passphrase Security
+    * Encourage students to use the password strength checker from Slide 23 (Exercise 2) to test their phrases
+
+    </script>
+  </section>
+
+  <section class="slide" data-markdown data-toc>
+    <script type="text/template">
+    #Phishing
+
+    #(F) - Spear Phishing Example
+    * Walk the students through different aspects of the email
+      * "John Paterson" is shown as an existing contact in their address book
+
+    </script>
+  </section>
+
+  <section class="slide" data-markdown data-toc>
+    <script type="text/template">
+    #Privacy
+
+    #Optional Exercises
+    * These can be run if the class seems engaged and time permits
+    * These are also good things for advanced learners to try on their own
+
+    </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

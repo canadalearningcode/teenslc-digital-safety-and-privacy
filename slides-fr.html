@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ados en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S’occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teenslc-logo-stacked-white.png" alt="Logo de Ados en programmation">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTER LES INFOS SUR LE WI-FI ICI -->
+        <h2>Connecte- <br>toi</h2>
+        <p><strong>Wi-Fi :</strong> réseau Wi-Fi</p>
+        <p><strong>Mot de passe :</strong> mot de passe du Wi-Fi</p>
+        <hr>
+
+        <h2>Téléchargez<br> et installez</h2>
+        <ol class="downloads">
+          <li>Fichiers d’apprentissage (dossier zip) : <a href="https://github.com/ladieslearningcode/teenslc-digital-safety-and-privacy/archive/master.zip">http://bit.ly/teenslc-digital-safety</a>
+            <ul>
+              <li>Dézippez le dossier (<em>Extraire tout</em> sur Windows).</li>
+              <li>Ouvrez <em>diapositives.html</em> dans le navigateur pour afficher les diapositives.</li>
+            </ul>
+          </li>
+          <!--<li>LastPass: <a href="https://www.lastpass.com/">https://www.lastpass.com/</a></li>-->
+          <li>Navigateur (Firefox est recommandé) : <a href="https://www.mozilla.org/fr-CA/firefox/"> https://www.mozilla.org/fr-CA/firefox/</a></li>
+          </li>
+        </ol>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par AC pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ados en programmation.</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer.</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/teenslc-logo-white.png" alt="Logo de Ados en programmation">
+      <h1 class="heading-bg">
+        <span>Cybersécurité et vie privée : <br> rencontre</span>
+      </h1>
+
+      <!-- INDIQUEZ LES INFORMATIONS SUR LA FORMATRICE -->
+      <img class="instructor" src="http://placehold.it/225x225" alt="Nom de la formatrice">
+      <h2><span class="cursive">avec</span>[nom de la formatrice]</h2>
+      <ul>
+        <li><a href="mailto:">[courriel@courriel.com]</a></li>
+        <li><a href="http://siteweb.com">[siteweb.com]</a></li>
+        <li><a href="http://twitter.com/">[@twitter]</a></li>
+      </ul>
+      <!--<span class="sponsor">
+        <p>En partenariat avec<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </span>-->
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par AC pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ados en programmation.</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer.</p>
+      </footer>
+    </section>
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Plan de cours
+
+        <span class="table-of-contents"></span>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Présentations
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        # Cybersécurité et vie privée
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Vivre dans une société axée sur la technologie
+
+        Les ordinateurs et l’Internet ont une énorme place dans notre vie. Grâce aux technologies, nous pouvons travailler, communiquer avec nos proches et nous divertir.
+
+        Toutefois, il ne faut pas ignorer les risques associés à l’utilisation d’Internet. Pensez-y, que pourrait-il vous arriver en...
+
+        * **faisant des transactions bancaires en ligne?**
+        * **envoyant des courriels et en partageant des fichiers?**
+        * **clavardant et en utilisant les réseaux sociaux?**
+        * **installant des appareils intelligents dans votre maison?**
+
+        Pour mieux comprendre les risques, apprenons à **penser comme des pirates**.
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      # Comment pensent les pirates?
+
+      ![Pirate](framework/img/workshop/hacker.jpg)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      <div style="margin-top:25%;text-align:center;">
+      Dans les prochaines diapositives, nous verrons des concepts importants qui reviendront souvent pendant l'atelier.
+
+      Cherchez les signes suivants pour vous guider.
+
+      <br>
+
+      <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+      <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      <img class="centered-icon" src="framework/img/workshop/trade_off2.png" alt="Concession">
+      </div>
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      # Quelle est la façon la plus facile d'accéder à quelque chose?
+
+      ![Chemin offrant le moins de résistance](framework/img/workshop/path_of_least_resistance.jpg) <!-- .element:  style="width:50%" -->
+
+      Les pirates cherchent toujours la façon la plus facile d'accéder à quelque chose. Ils n’ont pas toujours besoin d’outils complexes ou d’un ordinateur puissant.
+
+      ![Chemin rapide](framework/img/workshop/easy_path2.png)<!-- .element: style="display:block;margin:auto;max-width:6%;" -->
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      #  Quelles sont les informations à ma disposition?
+
+      ![Bibliothèque](framework/img/workshop/bookshelf.jpg) <!-- .element:  style="width:50%" -->
+
+      Un pirate utilisera toutes les informations dont il dispose pour accéder à un système.
+
+      ![Loupe](framework/img/workshop/mag_glass2.png)<!-- .element: style="display:block;margin:auto;max-width:6%;" -->
+
+      </script>
+    </section>
+
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Pourquoi les pirates piratent-ils? Quels sont les différents types de pirates?
+
+      Les pirates « à chapeau blanc » (**white hats**) sont engagés par les entreprises pour trouver des failles dans leurs systèmes afin d’améliorer la sécurité.
+
+      Les pirates « à chapeau gris » (**grey hats**) essaient d’infiltrer des systèmes par pure curiosité, pour se donner un défi ou pour s'amuser aux dépens des victimes.
+
+      Les pirates « à chapeau noir » (**black hats**) cherchent à voler des identifiants et à causer du mal. Parfois, ils ont le soutien d’organisations criminelles et même de gouvernements.
+
+      Il est important de savoir que les pirates « black hats » considèrent le piratage comme leur **emploi**. Ils tentent toujours de parvenir à leurs fins, peu importe la méthode, et peaufinent constamment leurs techniques.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Cybersécurité, vie privée et aspect pratique
+
+      Pour favoriser notre sécurité, il faut faire des **concessions** en ce qui concerne les aspects pratiques.
+
+      En faisant quelques efforts, il nous est possible de bien nous protéger. Nous allons découvrir les meilleures stratégies à adopter.
+
+      Durant cet atelier, nous verrons différents types de menaces en ligne. Nous vous proposerons des stratégies de protection et décrirons les avantages et les désavantages afin que vous puissiez décider des meilleures options pour vous.
+
+      ![Concession](framework/img/workshop/trade_off2.png)<!-- .element: style="display:block;margin:auto;max-width:6%;" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+      # Mots de passe
+      ## Pourquoi vous devrez probablement les changer.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mots de passe
+
+      Vous souvenez-vous de tous vos mots de passe? Combien en tapez-vous tous les jours?
+
+      En moyenne, nous avons **40 comptes différents** associés à notre adresse courriel principale.
+
+      Évidemment, comme nous avons des dizaines d’identifiants créés selon des règles complexes, nous avons pris de mauvaises habitudes de création de mots de passe.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mot de passe partagé
+      <!-- .element: style="width:50%;float:right;margin-left:1%;margin-top:-2%;" -->![Chuchoter](framework/img/workshop/whisper.jpg)
+
+      Même si vous connaissez quelqu’un en qui vous avez assez confiance (?) pour lui donner votre mot de passe, pensez-vous que cette personne ne le donnera jamais à quelqu’un d'autre?
+
+      En réalité, il y a beaucoup de cas de piratage de compte à la suite d’un partage de mot de passe avec une personne « digne de confiance ».
+
+      <!-- .element: style="clear:both" --> Une autre personne ne pourra *jamais* révéler votre mot de passe accidentellement (ou délibérément) si elle ne le connait pas! Si vous décidez de partager votre mot de passe, vous devez en accepter les risques.
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+      </div>
+
+      </script>
+
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mot de passe divulgué
+
+      Comme nous avons des dizaines de mots de passe, beaucoup d'entre nous les écrivons sur une feuille de papier ou dans un fichier texte sur notre ordinateur.
+
+      <!-- .element: class="centered-media" --> ![Bloc-notes](framework/img/workshop/notepad.jpg)
+
+      Les personnes qui stockent leurs mots de passe de cette manière ne voient que les avantages pratiques et ignorent les risques. En fait, n’importe qui pourrait avoir accès à nos documents.
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+        <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      </div>
+
+      ---
+      ###Plus d’informations
+      * [TV network hacked after broadcasting passwords on office wall](https://arstechnica.com/information-technology/2015/04/hacked-french-network-exposed-its-own-passwords-during-tv-interview/)
+      * [Hawaiian Nuclear launch alarm password found on sticky note](https://www.businessinsider.com/hawaii-emergency-agency-password-discovered-in-photo-sparks-security-criticism-2018-1)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Réutiliser des mots de passe
+
+      Supposons qu’un de vos mots de passe a été partagé, volé ou piraté.
+
+      Dans le pire des cas, que pourrait-il arriver? Les pirates pourraient-ils accéder à vos photos? À votre compte bancaire? À votre fameuse recette de gâteau qui a remporté plusieurs prix?
+
+      <!-- .element: class="centered-media" --> ![Gâteau](framework/img/workshop/cake.jpg)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Réutiliser des mots de passe
+
+      Dans le pire des cas, quelqu’un pourrait avoir accès à **tous vos mots de passe**!
+
+      Si vous réutilisez le même mot de passe à différents endroits, vous vous exposez à des risques d’**attaque par essai de masse** (credential stuffing). Un pirate peut prendre un ensemble de mots de passe volés et les essayer avec d'autres identifiants pour voir s’ils fonctionnent.
+
+      <!-- .element: class="centered-media" --> ![Comptes](framework/img/workshop/accounts.png)
+
+      Utilisez toujours un mot de passe différent pour chaque compte afin de réduire les risques d'essai de masse.
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+        <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mots de passe faibles et forts
+
+      Que pensez-vous de ces mots de passe? Sont-ils forts ou faibles? Pourquoi?
+
+      ![Mark Zuckerberg](framework/img/workshop/zuckerberg.jpg)<!-- .element: class="delayed" style="width:40%;float:right;margin-left:5px" -->
+
+      * 123456
+      * dadada **&larr;**<!-- .element: class="delayed" style="font-size:200%;line-height:0;color:#b1009a" -->
+      * Linkedin!1
+      * Zuck3rDaddy1984
+      * 5BA!A61e4C9B93F3z#06
+
+      Le mot de passe LinkedIn de Mark Zuckerberg, chef de la direction de Facebook, a été piraté. Selon vous, parmi les exemples précédents, quel était son mot de passe?
+
+      ---
+      ###Plus d’informations
+      * [Hackers expose Mark Zuckerberg's password](https://www.vanityfair.com/news/2016/06/mark-zuckerberg-terrible-password-revealed-in-hack)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Quels sont les éléments d’un bon mot de passe?
+
+      <!-- .element: style="width:50%;float:right;margin-left:2%;margin-top:-1%" --> ![Mots de passe](framework/img/workshop/pwchart-fr.png)
+
+      Un bon mot de passe, c'est un mot de passe que personne d'autre que vous ne devrait connaître.
+
+      Par conséquent, un bon mot de passe devrait être **difficile à deviner pour les autres**, mais **facile à retenir pour vous**.
+
+      Malheureusement, beaucoup de gens choisissent des mots de passe qui auraient leur place sur le côté gauche du graphique. Ce sont des mots de passe faibles.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Craquage de mot de passe
+
+      Qu'est-ce qui rend un mot de passe « facile à deviner »? En premier lieu, comment les pirates font-ils pour deviner des mots de passe?
+
+      Découvrons les différentes techniques utilisées par les pirates pour « craquer » un mot de passe et voyons comment leur compliquer la tâche.
+
+      N’oubliez pas que les pirates n’ont besoin de craquer votre mot de passe que s’il n’y a pas de méthode plus facile pour le voler! Voilà pourquoi les notions que nous avons vues aujourd'hui sont si importantes.
+
+      ---
+      ###Notes
+      * Le craquage et le stockage de mot de passe sont des sujets passionnants et complexes qui pourraient faire l’objet d’un atelier à eux seuls.
+      * Durant cet atelier, nous ne verrons que les bases de ces concepts, mais nous vous fournirons des ressources supplémentaires sur le sujet dans les diapositives.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Technique n° 1 : la force brute
+
+      Cette technique est simple : il s'agit d'essayer toutes les combinaisons de mot de passe possibles pour trouver le bon.
+
+      * aaaaaaa
+      * aaaaaab
+      * aaaaaac
+      * et ainsi de suite.
+
+      Quand on parle de sécurité, le but principal est de *retarder l’inévitable*. Avec le temps, toute attaque par force brute peut mener à la découverte d’un mot de passe. Il suffit d'essayer toutes les combinaisons.
+
+      Pour savoir comment prévenir, ou plutôt retarder, une attaque par force brute, il faut connaître le **nombre de combinaisons de mot de passe possibles** et la **vitesse d’essai des combinaisons  de mot de passe par l’ordinateur**.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Force brute : combinaisons
+
+      Souvenez-vous de ces règles :
+
+      > * Votre mot de passe doit comprendre au moins 6 caractères.
+      > * Il doit comprendre au moins une lettre minuscule.
+      > * Il doit comprendre au moins une lettre majuscule.
+      > * Il doit comprendre au moins un nombre.
+      > * Il doit comprendre au moins un symbole : ~!@#$%^&*()_+.
+
+      Plusieurs personnes choisissent un mot de passe selon la longueur minimale indiquée, sans penser aux autres recommandations en matière de sécurité. <!--Vérifiez votre mot de passe de l'Exercice 1!-->
+
+      Si un pirate souhaite trouver un mot de passe qui répond à tous ces critères, combien de combinaisons doit-il essayer avant de le trouver, au minimum?
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Force brute : combinaisons
+
+      Il y a 52 lettres minuscules et majuscules, 10 chiffres et 13 symboles. Ainsi, il y a **75** options pour chaque caractère.
+
+      Le format du mot de passe ressemble à ceci :
+      ```
+          (75) (75) (75) (75) (75) (75)
+      ```
+
+  Par exemple :
+      ```
+          ($)  (3)  (c)  (R)  (e)  (t)
+      ```
+
+      Au total, il y a **75<sup>6</sup> (ou 178 milliards)** de combinaisons de mot de passe possibles.
+
+      C'est beaucoup de combinaisons à essayer!
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Force brute : analyse de la vitesse
+
+      <!-- .element: style="max-width:40%;float:right;margin-left:5px;margin-top:-2%;padding:2px" -->![Chat qui tape](framework/img/workshop/typing_cat.gif)
+
+      Un humain peut essayer de deviner environ une douzaine de combinaisons par minute, donc quelques milliers par jour.
+
+      Par contre, les ordinateurs sont **beaucoup** plus rapides. Ils peuvent facilement faire des attaques de force brute pour essayer de deviner des mots de passe.
+
+      Faisons une analyse de la vitesse des ordinateurs.
+
+      <!-- .element: style="clear:both" -->La vitesse à laquelle les ordinateurs essaient des mots de passe dépend de deux facteurs :
+
+      * **La puissance de calcul de l'appareil**
+      * **La façon dont le mot de passe est stocké<sup>1</sup>**
+
+      ---
+      ###Plus d’informations
+
+      1. Il est rare que l’on puisse trouver un mot de passe directement. Les mots de passe sont souvent stockés avec des méthodes de renforcement de la sécurité, comme les **fonctions de hachage cryptographique** et le **salage**. La vitesse de craquage d’un mot de passe dépend beaucoup du type de hachage.
+      2. Pour en savoir plus sur le salage et les fonctions de hachage, lisez cet [article](https://lifehacker.com/how-your-passwords-are-stored-on-the-internet-and-when-5919918) ou regardez cette [vidéo](https://www.youtube.com/watch?v=8ZtInClXe1Q).
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Force brute : l’appareil
+
+      <!-- .element: class="delayed" style="width:40%;float:right;margin-left:5px;margin-top:-2%;padding:2px" --> ![PlayStation 4](framework/img/workshop/ps4.png)
+
+      Quel type d’appareil allons-nous utiliser pour notre analyse? Vous en avez peut-être déjà vu un...
+
+      <!-- .element: class="delayed"-->**Un PlayStation 4!**
+
+      <!-- .element: class="delayed"-->Prix de détail (2019) : 400 $ (approximativement)
+
+      <!-- .element: class="delayed"-->Vitesse d'essai de mot de passe : (Avez-vous une idée?)
+
+      <!-- .element: class="delayed"-->Quelques centaines par minute? Quelques millions par jour?
+
+      <!-- .element: class="delayed"-->**Près de 2 milliards d'essais par seconde! C’est 172 trillions par jour!**
+
+      <!-- .element: class="delayed" style="clear:both;""-->Oui, les consoles de jeux vidéo sont de vrais ordinateurs. Elles sont très puissantes et ne servent pas qu’à jouer à des jeux vidéo!
+
+      ---
+      ###Notes
+      * <!-- .element: class="delayed"-->Nous ne donnons cet exemple que pour démontrer la puissance de calcul. Un PlayStation 4 ne pourrait servir à « craquer » des mots de passe que s’il était modifié considérablement par un pirate expérimenté.
+      * <!-- .element: class="delayed"-->Certes, il est un peu bizarre de prendre un PlayStation 4 comme exemple pour notre analyse, mais croyez-le ou non, des consoles PlayStation ont déjà été utilisées pour faire des calculs intensifs! [Exemple 1](https://electronics.howstuffworks.com/ps3-folding-question.htm), [Exemple 2](https://phys.org/news/2010-12-air-playstation-3s-supercomputer.html)
+      </script>
+      <!--Salut! Je vois que tu es une personne curieuse!
+
+        Je présume que tu te demandes comment nous avons fait pour calculer le taux de 2 milliards d'essais par seconde.
+
+        Tu peux trouver des tests de performance de matériel informatique moderne avec des logiciels de piratage ici : https://www.blackhillsinfosec.com/hashcat-benchmarks-nvidia-gtx-1080ti-gtx-1070-hashcat-benchmarks/
+
+        Une 1080 Ti peut faire 11,3 milliards d'essais par seconde.
+        De son côté, une 1070 Ti peut faire 6 milliards d'essais par seconde.
+
+        Tu as bien lu : un ordinateur moderne peut faire 11,3 milliards d'essais de hachage par seconde.
+
+        C'est environ 10,6 et 5,8 téraflops, respectivement. Les téraflops (Tflop) sont une unité de mesure servant à calculer la puissance de calcul brute. https://en.wikipedia.org/wiki/GeForce_10_series
+
+        Le rapport entre la puissance de calcul brute en téraflops et les milliards de fonctions de hachage calculées par seconde est de 1,047.
+
+        Une console PlayStation 4 a une puissance de calcul de 1,84 tflops. https://www.techpowerup.com/gpu-specs/playstation-4-gpu.c2085
+
+        Ainsi, avec la puissance de calcul brute d’un PlayStation 4, nous pourrions calculer environ 1,92 milliards de fonctions de hachage par seconde.
+
+        Nous arrondissons ce taux à 2 milliards par seconde à des fins d’information.
+
+        En réalité, le calcul serait plus lent, car le PlayStation 4 n'est pas adapté pour craquer des mots de passe. Il s'agit d’un simple exemple pour démontrer la rapidité des ordinateurs, rien de plus.-->
+    </section>
+
+    <section class="slide">
+      <style>
+        table {
+          width: 100%;
+          font-size:90%;
+          text-align: center;
+        }
+        thead tr th{
+          background-color: #b1009a;
+          color: white;
+          text-align: center;
+        }
+        td {
+          font-size: 80%;
+        }
+        .pw-len {
+          font-size:75%;
+          font-weight:bold;
+        }
+        .len-6 span{
+          color:red;
+        }
+        .len-8 span{
+          color:orange;
+        }
+        .len-10 span{
+          color:green;
+        }
+        .len-12 span{
+          color:blue;
+        }
+      </style>
+
+      <h1>Force brute : c'est le temps de craquer</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Type de mot de passe</th><th>Exemple</th><th>Combinaisons totales</th><th>Temps maximul de craquage <br> (2 milliards d'essais/sec)</th>
+          </tr>
+        </thead>
+
+        <tbody class="len-6 delayed">
+          <tr>
+            <td>Lettres seulement
+                <br>
+                <span class="pw-len">Longueur : 6</span>
+            </td>
+            <td>Secret</td>
+            <td>52<sup>6</sup> ≈ 20 milliards</td>
+            <td>10 secondes</td>
+          </tr>
+          <tr>
+            <td>Lettres et nombres
+              <br>
+              <span class="pw-len">Longueur : 6</span>
+            </td>
+            <td>S3cret</td>
+            <td>62<sup>6</sup> ≈ 57 milliards</td>
+            <td>28 secondes</td>
+          </tr>
+          <tr>
+            <td>Lettres + nombres + symboles
+              <br>
+              <span class="pw-len">Longueur : 6</span>
+            </td>
+            <td>$3cRet</td>
+            <td>75<sup>6</sup> ≈ 178 milliards</td>
+            <td>89 secondes</td>
+          </tr>
+        </tbody>
+
+        <tbody class="len-8 delayed">
+          <tr>
+            <td>Lettres seulement
+                <br>
+                <span class="pw-len">Longueur : 8</span>
+            </td>
+            <td>Password</td>
+            <td>52<sup>8</sup> ≈ 53 billions</td>
+            <td>7,4 heures</td>
+          </tr>
+          <tr>
+            <td>Lettres et nombres
+              <br>
+              <span class="pw-len">Longueur : 8</span>
+            </td>
+            <td>Passw0rd</td>
+            <td>62<sup>8</sup> ≈ 218 billions</td>
+            <td>30 heures</td>
+          </tr>
+          <tr>
+            <td>Lettres + nombres + symboles
+              <br>
+              <span class="pw-len">Longueur : 8</span>
+            </td>
+            <td>M0tp@sse</td>
+            <td>75<sup>8</sup> ≈ 1000 billions</td>
+            <td>6 jours</td>
+          </tr>
+        </tbody>
+        <tbody class="len-10 delayed">
+          <tr>
+            <td>Lettres + nombres + symboles
+              <br>
+              <span class="pw-len">Longueur : 10</span>
+            </td>
+            <td>Superman!1</td>
+            <td>75<sup>10</sup> ≈ 5,6 trillions</td>
+            <td>89 ans</td>
+          </tr>
+        </tbody>
+        <tbody class="len-12 delayed">
+          <tr>
+            <td>Lettres + nombres + symboles
+              <br>
+              <span class="pw-len">Longueur : 12</span>
+            </td>
+            <td>CEPestCool!1</td>
+            <td>75<sup>12</sup> ≈ 316 000 trillions</td>
+            <Td>500 000 ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+      <h3>Notes</h3>
+      <ul>
+        <li>
+          La durée indiquée dans la dernière colonne représente le <strong>temps maximal</strong> pour craquer un mot de passe. En moyenne, la durée réelle est environ deux fois plus courte que celle indiquée, voire encore plus courte avec des technologies avancées.
+        </li>
+        <li>
+          La fonction de hachage que nous avons choisie pour notre calcul est <strong>SHA-1</strong>, la fonction utilisée par des entreprises comme LinkedIn. Voici un <a href="https://brilliant.org/wiki/secure-hashing-algorithms/">article</a> sur la fonction de hachage SHA-1 et le hachage en général.
+        </li>
+        <li>
+          Certains sites Web limitent le nombre d'essais d’identifiants, mais pas tous. Les pirates contournent souvent cette protection en faisant une <strong>attaque hors ligne</strong> contre des fonctions de hachage de mot de passe plutôt que contre les sites Web.
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Résister à la force brute
+
+      Pour vous protéger contre les attaques de force brute, le meilleur conseil est de **créer de longs mots de passe**.
+
+      Mais est-ce assez? <!-- .element: class="delayed" -->
+
+      En fait, plutôt que d'essayer toutes les combinaisons possibles de lettres, de nombres et de symboles, un pirate pourrait filtrer et limiter la quantité de mots de passe à vérifier. <!-- .element: class="delayed" -->
+
+      <!-- .element: class="delayed centered-media" -->![Piratage de mot de passe](framework/img/workshop/password_hacking.jpg)
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+      # Attaque de dictionnaire
+
+      Il y a une version sophistiquée de l’attaque par force brute : l’**attaque de dictionnaire**.
+
+      Les pirates n’ont pas besoin de vérifier toutes les combinaisons de mot de passe, car les humains ne sont pas très bons pour créer des mots de passe au hasard. La plupart des gens utilisent des noms communs, des expressions et des mots prévisibles dans leurs mots de passe.
+
+      Voici quelques mots de passe fréquents divulgués dans des fuites de données :
+
+      * 2018 :
+        * 123456
+        * password
+        * 111111
+        * abc123
+        * iloveyou
+        * qwerty
+      * ...
+        * princess
+        * admin
+        * football
+        * !@#$%^&
+        * monkey
+        * charlie
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+        <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      </div>
+
+        ---
+        ###Ressource
+        * [Liste des mots de passe les plus courants](https://fr.wikipedia.org/wiki/Liste_des_mots_de_passe_les_plus_courants)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Créer un dictionnaire
+
+      Les pirates génèrent un **dictionnaire** de mots de passe possibles en analysant les tendances de mots de passe divulgués dans les fuites de données. Ils utilisent ce dictionnaire pour faire une attaque de dictionnaire.
+
+      Selon les fuites, les éléments de mots de passe les plus courants sont :
+
+      * Noms - **johnsmith**
+      * Lettres qui se suivent sur le clavier - **qwerty**
+      * Passe-temps et intérêts - **baseball**
+      * Noms de sites Web - **monfacebook**
+      * Phrases et mots communs - **iloveyou**
+      * Personnages et lieux connus - **superman**
+
+      Chaque fuite de données fournit de nouvelles statistiques sur les mots de passe, qui serviront aux pirates pour améliorer leurs dictionnaires.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Créer un dictionnaire
+
+      Même si vous ajoutez des symboles et des nombres à ces mots de passe, il ne serait pas difficile de les craquer, car les humains sont trop prévisibles.
+
+      Voici quelques façons courantes de modifier le mot de passe **password** :
+
+      * Ajouter des nombres et des symboles pour respecter la limite de caractères : **Password!1** (longueur de 10 charactères)
+      * Ajouter une année au début ou à la fin - **password1982** (longueur de 12 caractères)
+      * Substituer des lettres par des nombres et des symboles et alterner entre majuscules et minuscules - **NetflixP@ssW0rD** (longueur de 15 caractères)
+
+      Les pirates peuvent programmer toutes ces variations très facilement dans leur logiciel de craquage de mots de passe.
+
+      N’oubliez pas qu’en investissant dans un simple ordinateur de 400 $, un pirate peut faire **2 milliards d'essais de mots de passe par seconde**!
+
+      ---
+      ###Notes
+      * Il est difficile de comparer la vitesse d’une attaque de dictionnaire à celle d’une attaque à force brute. Tout dépend du type de mot de passe. Les pirates améliorent constamment leurs techniques de craquage.
+      * Comme les attaques de dictionnaire sont plus efficaces, la force brute est plutôt une solution de rechange.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Peaufiner un dictionnaire
+
+      En tentant de craquer un mot de passe, les pirates peuvent cibler une personne ou un organisme en particulier. Ils font d'abord une recherche sur leur cible et ajoutent des termes potentiellement pertinents à leur dictionnaire.
+
+      La recherche d’informations sur une personne s'appelle le **doxxing**, en référence aux « docs » (documents) disponibles sur Internet. Ces « documents » comprennent, notamment, les réseaux sociaux, les archives publiques et les données divulguées après une fuite.
+
+      <!-- .element: style="width:40%;float:right;padding-left:5%" --> ![Reine Elizabeth II](framework/img/workshop/queen.jpg)
+
+      D’après vous, quel est le mot de passe de la Reine Elizabeth II?
+
+      * **Philip1947** (nom d’un membre de la famille, année importante)
+      * **@BuckinghamP** (le nom de sa résidence, ajout prévisible)
+      * **iLuvC0rgis!!** (nom d’un animal, substitution et variation orthographique prévisibles)
+
+      <!-- .element: style="clear:both" -->Vous en saurez plus sur le **doxxing** dans la section Confidentialité.
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      </div>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mots de passe : résumé du problème
+
+      La source de la plupart de nos problèmes avec les mots de passe est le grand nombre d’identifiants à retenir. Comme nous ne voulons pas apprendre nos identifiants par coeur, nous compromettons notre sécurité en **écrivant nos mots de passe**, en **réutilisant nos mots de passe** et en **choisissant des mots de passe trop faciles**.
+
+      <!-- .element: class="centered-media" --> ![Trop de mots de passe](framework/img/workshop/overload.jpg)
+
+      Mais comment résoudre ces problèmes?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Solution aux mauvais mots de passe
+
+      Plutôt que d'apprendre des **dizaines de mauvais mots de passe**, nous n'avons qu’à retenir **quelques bons mots de passe**.
+
+      Les **gestionnaires de mots de passe** sont une excellente solution à notre problème. Ces outils nous aident à générer des mots de passe sécuritaires pour nos différents comptes et les stockent de manière sécuritaire.
+
+      En plus de nous enlever le fardeau de la gestion des mots de passe, ils sont pratiques et saisissent automatiquement nos identifiants dans les champs.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Fonctionnement des gestionnaires
+
+      <!-- .element: style="max-width:50%;float:right;padding-left:5%" --> ![Gestionnaire de mots de passe](framework/img/workshop/pw-manager.png)
+
+      1. L’utilisateur crée un seul mot de passe fort, c'est-à-dire un *mot de passe principal*.
+
+      2. L’utilisateur installe le gestionnaire de mots de passe sur ses appareils.
+
+      3. Le gestionnaire crée une base sécuritaire pour stocker les mots de passe<sup>1</sup>, qui est déverrouillée avec le mot de passe principal.
+
+      4. Le gestionnaire génère de nouveaux mots de passe sécuritaires, importe les mots de passe déjà créés<sup>2</sup> et les stocke en toute sécurité.
+
+      5. L’utilisateur consulte un site Web et peut saisir ses identifiants automatiquement grâce au gestionnaire.
+
+      ---
+      ###Notes
+      1. La base de stockage est protégée par [**cryptage**](https://slate.com/technology/2015/02/what-is-encryption-a-nontechnical-guide-to-protecting-your-digital-communications.html).
+      2. N’oubliez pas de mettre à jour vos mots de passe importés s’ils sont faibles.
+      3. [Source de l’image](https://pixelprivacy.com/password-managers/)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Choisir un gestionnaire de mots de passe
+
+      Il est important de choisir un bon gestionnaire de mots de passe. Il y a beaucoup de gestionnaires de mots de passe gratuits, mais frauduleux. Ils ont été créés pour voler vos informations!
+
+      Nous vous recommandons d’utiliser **LastPass** : https://www.lastpass.com/
+
+      Il s'agit d’un gestionnaire gratuit qui fonctionne sur la plupart des navigateurs et des appareils. La version payante comprend des fonctionnalités supplémentaires, mais qui ne sont pas utiles pour la majorité des gens.
+
+      Voici quelques autres options recommandées :
+
+      * **1Password:** https://1password.com/
+      * **Dashlane:** https://www.dashlane.com/
+      * **KeePassXC:** https://keepassxc.org/ - (Pour les utilisateurs avancés)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Créer des mots de passe forts
+
+      Le désavantage des gestionnaires de mots de passe est que nous mettons tous nos œufs dans le même panier. Si quelqu’un accède à notre base de mots de passe, c'est la catastrophe.<sup>1</sup>
+
+      Ainsi, notre mot de passe principal doit être *très sécuritaire*, c'est-à-dire qu’il doit être :
+
+      * **Long**, pour résister aux attaques de force brute (au moins 10 caractères, encore mieux s’il comprend plus de 15 caractères)
+      * **Imprévisible**, pour résister aux attaques de dictionnaire
+      * **Impersonnel**, pour résister au doxxing
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/trade_off2.png" alt="Concession">
+      </div>
+
+      ---
+      ###Notes
+      1. C'est un désavantage, certes, mais c'est mieux que de créer plusieurs mauvais mots de passe!
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Mots de passe forts
+
+      Voici quelques exemples de bons mots de passe principaux :
+
+      * <span style="font-size:45px;">DjN2R&qAY2Nk5$u</span>
+      * <span style="font-size:45px;">B9hN%9wpBK!ag82</span>
+      * <span style="font-size:45px;">_Q6k52au@MFa4#a</span>
+
+      Ils comptent 15 caractères aléatoires et ne correspondent pas à des mots ou à des variations qui pourraient se retrouver dans un dictionnaire.
+
+      Cependant, il y a un problème. **Ils sont difficiles à retenir!**<!-- .element: class="delayed" -->
+
+      Essayons une autre méthode pour créer un mot de passe à la fois sécuritaire et mémorable.<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Exercice : Créer une phrase mot de passe (15 minutes)
+      Une excellente stratégie est de créer une **phrase mot de passe** sécuritaire. Nous ferons une petite activité amusante pour créer la nôtre!
+
+      **1. Faites un remue-méninges et dressez une liste de mots qui correspondent aux catégories suivantes. Trouvez au moins *cinq* mots pour chaque catégorie.**
+
+        * Une unité de mesure (« Gallon », « Paquet »)
+        * Un adjectif (« Boueux », « Tapageur »)
+        * Un nom d’animal que l’on ne trouve pas sur une ferme, au pluriel (« Geckos », « Grosses Pieuvres »)
+        * Un verbe, au passé composé (« A Couru », « A Échappé »)
+        * Une couleur (« Mauve », « Bleu Ciel »)
+        * Une nationalité ou un matériel (« Suédois », « Cuir »)
+        * Un nom de marque ou de magasin (« Nike », « McDonalds »)
+        * Le nom de quelque chose à offrir en cadeau (« Fleurs », « Carte »)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Exercice : créer une phrase mot de passe
+      **2. Choisissez un modèle et remplissez-le avec les mots de vos listes. **
+
+      * Un [Unité] de
+      * [Adjectif]
+      * [Animal]
+      * [Verbe]
+
+      p. ex., Un Paquet de Mini Geckos A Couru
+
+      * [Cadeau]
+      * [Nationalité ou matériel]
+      * [Nom de marque ou de magasin]
+      * [Couleur]
+
+      p. ex., Un Chocolat Cubain Gucci Orange
+
+      Faites vos propres combinaisons ou créez vos propres modèles de phrase : vous avez carte blanche. Votre phrase n’a pas besoin d’être intelligente. Plus elle est bizarre, mieux c'est! Pensez à des exemples!
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Exercice : créer une phrase mot de passe
+      **3. Enlevez les espaces. N’hésitez pas à changer les majuscules ou à ajouter des nombres ou des symboles pour rendre les mots plus complexes.**
+
+      p.ex., unPaquetde%$MinigeckosACOUru
+
+      Et voilà! Vous avez une belle phrase mot de passe idéale à utiliser comme mot de passe principal.
+
+      Par contre, **N’UTILISEZ PAS** le mot de passe indiqué dans les diapositives. Toutes les personnes qui ont lu ces diapositives le connaissent. Il n'est donc pas sécuritaire!
+
+      Dites-nous quelques mots de passe que vous avez créés. Assurez-vous de ne pas utiliser ces mots de passe plus tard.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Sécurité des phrases mot de passe
+
+      Un mot de passe comme **unPaquetde%$MinigeckosACOUru** est-il vraiment sécuritaire?
+
+      ##Est-il assez long pour résister à une attaque de force brute?
+      Un mot de passe à 27 caractères prend jusqu’à <!-- .element: class="delayed" -->10<sup>31</sup> ans à craquer avec la force brute!
+
+      ##Est-ce un mot de passe courant ou prévisible?
+      Il s'agit d’une phrase unique impossible à trouver dans un dictionnaire de mots de passe fréquents.<!-- .element: class="delayed" -->
+
+      ##Y a-t-il des mots associables à vous?
+      Probablement pas, sauf si tout le monde sait que vous aimez les minigeckos.<!-- .element: class="delayed" -->
+
+      ##Le mot de passe est-il trouvable à quelque part? <!-- .element: class="delayed" -->
+      <!-- .element: class="delayed" -->**Oui!** Le mot de passe se trouve dans ces diapositives. Bref, n’utilisez pas ce mot de passe. Ce n'est qu’un exemple!
+
+      ---
+      ###Notes
+      * Les pirates expérimentés peuvent trouver des tendances linguistiques et orthographiques fréquentes dans les phrases mot de passe pour réduire le nombre de possibilités d'essai. Mine de rien, il s'agit d’un mot de passe supérieur à la moyenne!
+      * La meilleure façon de créer une phrase mot de passe est de choisir **4 à 6 mots complètement au hasard, sans structure**. Utilisez cet [outil en ligne](https://www.useapassphrase.com/) pour obtenir des idées.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Retenir notre phrase mot de passe
+
+      Une phrase aussi longue peut sembler difficile à retenir.
+
+      Toutefois, la structure du mot de passe nous permet de le diviser en petites parties pour mieux le mémoriser.
+
+      Plutôt que de mémoriser **27 caractères individuels**, nous n'avons qu’à retenir **6 mots** avec des variations de majuscules et de symboles. Cette méthode nous permet de créer une phrase loufoque que nous pouvons visualiser pour mieux nous souvenir de notre mot de passe.
+
+      Exercez-vous à utiliser votre phrase mot de passe. En l’utilisant, vous l’apprendrez très vite!
+
+      N’oubliez pas que votre gestionnaire de mots de passe crée et stocke automatiquement vos mots de passe pour tous vos autres comptes, et ce, en toute sécurité. Vous n'avez qu’à vous souvenir de ce mot de passe principal, et le tour est joué!
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/trade_off2.png" alt="Concession">
+      </div>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Modifier un mot de passe
+
+      On nous recommande souvent de changer nos mots de passe fréquemment pour renforcer leur sécurité.
+
+      En réalité, ce n'est pas tout à fait vrai, car cette pratique nous encourage à créer des mots de passe faibles en faisant de petites variations. (p. ex., Password!1 -> Password@2**).
+
+      Les spécialistes nous suggèrent de changer nos mots de passe seulement s’il y a eu une *fuite de données*. La plupart des sites Web nous contactent lorsque nous sommes touchés par une fuite.
+
+      Certains services imposent toujours des changements de mot de passe en raison de standards dépassés. Restez sur vos gardes : les suggestions de changement de mot de passe sont parfois des **tentatives d’hameçonnage**. Nous verrons tout cela très bientôt!
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Authentification multifactorielle
+
+      L’**authentification multifactorielle** (MFA) ajoute une couche supplémentaire de sécurité à nos mots de passe.
+
+      Normalement, il nous suffit de connaître notre nom d’utilisateur et notre mot de passe pour nous connecter à un compte. L’authentification multifactorielle divise le processus de connexion en plusieurs facteurs :
+
+      1. Un facteur que nous **connaissons** (un mot de passe)
+      2. Un facteur que nous **avons** (un moyen d’authentification externe)
+      3. Un facteur qui est **propre à nous** (empreinte digitale ou visage)
+
+      En choisissant plus d’un facteur de connexion, vous renforcez la sécurité de votre compte et rendez la tâche plus difficile aux pirates qui tentent de voler votre identité.
+
+      <!-- .element: style="clear:both" -->Chaque application a des paramètres différents. Consultez la documentation pour mettre en place l’authentification multifactorielle.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Autres « mots de passe »
+
+      Les mots de passe ne sont pas que des mots pour nous connecter sur des sites Web. Les principes de création d’un mot de passe sécuritaire s'appliquent aussi à d'autres types de mots de passe :
+
+      * NIP de compte bancaire
+      * Code pour déverrouiller un téléphone
+      * Code d'entrée pour un immeuble
+
+      Avez-vous déjà partagé un de ces mots de passe? Quelqu’un y a-t-il déjà eu accès? Vos mots de passe sont-ils trop prévisibles?
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/easy_path2.png" alt="Chemin rapide">
+      </div>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+      # Hameçonnage
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Qu'est-ce que l’hameçonnage?
+
+      À la base, l’hameçonnage est une tentative de vol d’identifiants ou une incitation à faire une action. Dans les deux cas, les pirates tentent de se faire passer pour une personne ou une entité crédible pour obtenir quelque chose de nous.
+
+      Ils cherchent à obtenir des informations confidentielles comme des **mots de passe et des renseignements personnels** ou essaient de convaincre quelqu’un de leur **envoyer de l'argent**.
+
+      <!-- .element: class="centered-media" --> ![Pirate faisant du hameçonnage](framework/img/workshop/phisher.jpg)
+
+      </script>
+    </section>
+
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Statistiques
+
+      L’hameçonnage est un des fléaux les plus importants sur Internet.
+
+      En 2019 :
+
+      * L’économie de la cybercriminalité a généré des profits de plus de **1,5 billion**. C’est presque le produit intérieur brut total du Canada en 2018!
+      * **76 % des entreprises** ont rapporté avoir été victimes d’une tentative d’hameçonnage dans la dernière année.
+      * **60 % des nord-américains** connaissent un membre de leur famille immédiate qui a été victime d’hameçonnage ou d’une fuite de données ou en ont été eux-mêmes victimes.
+      * Environ **1,5 million** de sites d’hameçonnage sont créés chaque mois.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Éléments fréquents des tentatives d’hameçonnage
+
+      Les tentatives d’hameçonnage exploitent les différentes habitudes de leurs cibles.
+
+      Voici quelques éléments courants des arnaques en ligne :
+
+      * <!-- .element: class="delayed" -->**Crée un sentiment d’urgence** (« Activités suspectes dans votre compte »)
+      * <!-- .element: class="delayed" -->**Suscite la curiosité** (« Vous avez reçu un colis », « Consultez les pièces jointes »)
+      * <!-- .element: class="delayed" -->**Se fait passer pour une personne ou une source crédible** (« Message de l'Agence du revenu du Canada »)
+      * <!-- .element: class="delayed" -->**Invite à cliquer sur des liens** (« Cliquez ici pour vous connecter »)
+      * <!-- .element: class="delayed" -->**Demande des identifiants ou de l'argent** (« Envoyez un paiement à cette adresse »)
+      * <!-- .element: class="delayed" -->**Fait une offre trop belle pour être vraie** (« Vous avez gagné 1 million de dollars! »)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Harponnage
+
+      L’harponnage est une forme ciblée d’hameçonnage qui implique l’utilisation de données personnelles (**doxxing**).
+
+      Les informations obtenues durant la recherche de données personnelles servent à rendre l’hameçonnage plus efficace. En effet, les tentatives d’harponnage font référence à des événements et à des noms réels. Certains malfaiteurs tentent même d’imiter le comportement d'autres personnes ou entités afin que tout soit authentique.
+
+      L’harponnage vise surtout les personnes importantes au sein d’un organisme, particulièrement celles ayant accès à des renseignements financiers et confidentiels.
+
+      L’utilisation de renseignements pour obtenir la confiance d’autrui et les pousser à faire une action s’appelle le **piratage psychologique**.
+
+      <div style="text-align:center;">
+        <img class="centered-icon" src="framework/img/workshop/mag_glass2.png" alt="Loupe">
+      </div>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Exemple d’harponnage
+
+      ![Harponnage](framework/img/workshop/phish/spear-fr.png)<!-- .element: style="width:45%;display:block;margin:auto;" -->
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Comment reconnaître une tentative d’hameçonnage
+
+      <!-- .element: class="centered-media" -->![Reconnaître l’hameçonnage](framework/img/workshop/detect_phish.png)
+
+      La clé pour déterminer si un message est une tentative d’hameçonnage est de surveiller les **incitations à réaliser une action**.
+
+      Par exemple :
+
+      * Cliquer sur un lien
+      * Ouvrir une pièce jointe
+      * Saisir des identifiants
+      * Envoyer des renseignements confidentiels
+
+      Si un message ou un site présente au moins un des éléments ci-dessus, restez sur vos gardes.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Que faire en cas de tentative d’hameçonnage
+
+      ## Ne cliquez pas sur les liens.
+      * Si vous cliquez sur un lien, il est possible que des **logiciels malveillants** s’installent automatiquement. Ces programmes peuvent causer des dommages à votre ordinateur ou voler vos informations.
+
+      ## Ne téléchargez pas et n’ouvrez pas les pièces jointes.
+      * Les pièces jointes des courriels d’hameçonnage contiennent souvent des logiciels malveillants.
+      * Souvent, les pièces jointes portent des noms qui attirent l’attention comme « Reçu », « Order Receipt », « Photo.jpg », « Picture1.jpg », « Facture » ou « Invoice ».
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Que faire en cas de tentative d’hameçonnage
+
+      ## Confirmez les informations avec l'expéditeur.
+      * Si vous doutez de l'authenticité de la personne qui a envoyé le message, **ne répondez pas directement au courriel**. À la place, écrivez un nouveau message à partir de l'adresse courriel de l’expéditeur dans vos contacts. Vous pouvez aussi contacter l'expéditeur par un autre moyen, par exemple, par téléphone, par texto ou par clavardage.
+
+      ## Signalez l’incident aux autorités.
+      * Si quelqu’un tente de se faire passer pour une institution, transférez le le courriel ou envoyez le site Web à l'adresse du service antifraude de la véritable institution.
+      * Si vous recevez une tentative d’hameçonnage sur votre adresse courriel de travail, transférez le courriel à l'adresse du service antifraude de votre entreprise.
+      * Si vous recevez une tentative d’hameçonnage sur votre adresse courriel personnelle, ou si vous êtes victime d’un autre type d’hameçonnage, transférez les informations à ce sujet au Centre antifraude du Canada de la GRC : http://www.antifraudcentre-centreantifraude.ca/index-fra.htm
+
+      ## Supprimez le courriel ou ne visitez pas le site.
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Si vous êtes victime d’hameçonnage
+
+      ## Contactez votre institution financière ou l’émetteur de votre carte de crédit.
+      * En avertissant les autorités, vous pourrez détecter et bloquer les transactions frauduleuses.
+
+      ## Contactez les agences d’évaluation du crédit (Equifax Canada et TransUnion Canada) et mettez en place des alertes à la fraude sur votre rapport de solvabilité.
+      * Comme les fraudeurs peuvent nuire considérablement à votre cote de crédit, il est essentiel de vous protéger.
+
+      ## Contactez votre service de police local.
+      * Avant de déposer un rapport, consultez le site Web de votre service de police local. Chaque service a des procédures différentes.
+
+      ## Si vous avez saisi des renseignements ou un mot de passe sur un site ou dans un formulaire frauduleux, changez vos identifiants immédiatement.
+      * Assurez-vous que vous saisissez vos informations sur le bon site et mettez à jour votre mot de passe.
+
+      ## Si vous soupçonnez que des logiciels malveillants ont été installés sur votre ordinateur, consultez un technicien en soutien informatique ou utilisez des outils contre les logiciels malveillants.
+      * Les logiciels malveillants ont plusieurs formes et sont difficiles à supprimer complètement. Nous vous recommandons de parler à un expert qui vous aidera à nettoyer votre ordinateur.
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+      # Confidentialité
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Qu'est-ce que la confidentialité?
+
+      Des publications Instagram à nos photos de vacances en passant par les conversations de groupe, nous échangeons du contenu sur Internet tous les jours, voire constamment.
+
+      <!-- .element: class="centered-media" --> ![Téléphones intelligents](framework/img/workshop/smartphones.jpg)
+
+      Quand vous partagez du contenu, vous avez un public cible bien précis. Par contre, d’autres personnes, des inconnus, pourraient voir ce que vous partagez.
+
+      La confidentialité, ou la « vie privée », concerne les **façons dont nos informations sont traitées** et les **personnes avec lesquelles nos informations sont partagées**.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Pourquoi la confidentialité est-elle importante?
+
+      La plupart des gens sont d'accord pour dire qu’il est essentiel de préserver notre vie privée. Mais *pourquoi*, exactement?
+
+      Pensez-y bien :
+
+      ##Avez-vous quelque chose à cacher?
+
+
+      Vous avez sûrement déjà entendu ceci :
+
+      ```« Si tu n'as rien à cacher, tu n'as pas à avoir peur. »```
+
+      Selon ce principe, seulement les gens qui ont de mauvaises intentions ou font des activités illégales cherchent à préserver leur confidentialité en ligne.
+
+      À votre avis, est-ce vrai?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Avez-vous quelque chose à cacher?
+
+      C'est un **sophisme**.
+
+      Ce raisonnement est souvent utilisé pour justifier le partage libre des informations et l’implantation de programmes de surveillance envahissants.
+
+      *Tout le monde* possède des informations qui doivent rester confidentielles.
+
+      * Renseignements personnels
+      * Dossiers médicaux
+      * Conversations et photos privées
+      * Historique de recherche
+
+      Nous avons déjà vu qu’une simple information peut servir à craquer des mots de passe et à faire du hameçonnage.
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Comment vos données sont-elles utilisées?
+
+        ```« Si vous ne payez pas un service, c'est que VOUS êtes le produit. »```
+
+        <!-- .element: class="centered-media" --> ![Vente de données](framework/img/workshop/selling_data.png)
+
+        La plupart des services gratuits rentabilisent leurs activités en partageant vos renseignements personnels, vos photos et vos habitudes personnelles à d'autres entreprises qui font du ciblage publicitaire.
+        </script>
+      </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Comment vos données sont-elles utilisées?
+
+      On entend souvent parler d'entreprises qui collectent plus de données qu’elles le devraient et qui les utilisent sans le consentement des clients.
+
+      Bien sûr, les entreprises paient parfois des amendes. Toutefois, elles sont minimes à côté de la valeur de vos renseignements et de l'argent qu’elles retirent en violant votre vie privée. De plus, les amendes payées ne réparent pas les dommages causés.
+
+      Il y a même des cas où les données servent de preuve durant des procédures judiciaires. Par exemple, l’assistant vocal Alexa, qui enregistre passivement des extraits de nos conversations, a « témoigné » dans un procès pour un cas de meurtre en 2018.
+
+      ---
+      ###Plus d’informations
+      * [2018 Facebook-Cambridge Analytica Data Scandal](https://www.theverge.com/2019/7/11/20690020/google-assistant-home-human-contractors-listening-recordings-vrt-nws)
+      * [Alexa subpoenaed in double homicide](https://www.vox.com/the-goods/2018/11/12/18089090/amazon-echo-alexa-smart-speaker-privacy-data)
+      * [Google Assistant accidental recordings, listened to by human contractors](https://www.theverge.com/2019/7/11/20690020/google-assistant-home-human-contractors-listening-recordings-vrt-nws)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Vos renseignements sont-ils vraiment confidentiels? Qui d’autre a accès à vos données?
+
+      Supposons qu’une entreprise qui collecte vos données promette de ne jamais les utiliser à mauvais escient.
+
+      🙄<!-- .element: class="delayed" -->
+
+      Pouvez-vous croire que l'entreprise protégera vos données afin que <!-- .element: class="delayed" -->*personne d'autre* ne puisse y accéder? Un fou dans une poche!
+
+      <!-- .element: class="delayed centered-media" --> ![Un fou dans une poche!](framework/img/workshop/eavesdrop.jpg)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Exercice facultatif : Vos données sont-elles protégées?
+
+      Même si le fait que vos données soient achetées et vendues ne vous dérange pas, n’oubliez pas qu’il est impossible de savoir qui pourra les obtenir et comment elles seront utilisées.
+
+      Dans un moteur de recherche, cherchez le nom d’une institution financière, d’un réseau social ou d’un service où vous avez un compte. Ensuite, ajoutez l’un des termes suivants :
+
+      * vol de données
+      * fuite de données
+      * faille de sécurité
+      * piraté
+
+      Par exemple : « Desjardins vol de données », « WhatsApp piraté », « Netflix faille de sécurité ».
+
+      Qu'avez-vous trouvé?
+
+      Lorsque vos données sont divulguées, il est impossible de savoir qui peut les voir et comment elles seront utilisées.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Vos renseignements sont-ils vraiment confidentiels? Qui d’autre a accès à vos données?
+        Les malfaiteurs cherchent toujours de nouvelles façons d’utiliser des informations accessibles.
+
+        * Les publications ayant un **marquage géographique** révèlent votre emplacement. Ainsi, les voleurs peuvent savoir quand vous n’êtes pas chez vous, ce qui leur permet de faire infraction lorsque vous êtes en vacances.
+        * Vos publications peuvent être prises hors contexte et utilisées afin de ruiner votre réputation.
+        * Certaines personnes qui trouvent des adresses en ligne peuvent lancer de fausses alertes à la bombe ou signaler de faux cas de violence conjugale pour faire une « blague ». Les autorités à vos trousses (c'est ce qu'on appelle du « swatting »).
+        * La divulgation de données personnelles (doxxing) sans le consentement de quelqu’un est une technique d’harcèlement en ligne.
+
+        ---
+        ###Plus d’informations
+        * [Burglar targets Rihanna's home by tracking her location on social media](https://www.cnn.com/2018/10/03/entertainment/los-angeles-celebrity-homes-burglarized/index.html)
+        * [Man falsely accused in 2013 Boston Bombing over social media](https://www.nbcnews.com/news/asian-america/wrongly-accused-boston-bombing-sunil-tripathys-story-now-being-told-n373141)
+        * Article sur le [swatting](https://www.cnn.com/2019/03/30/us/swatting-what-is-explained/index.html)
+        * Article sur le [doxxing](https://cyberbullying.org/doxing-and-cyberbullying)
+        * [Jeu Bad News : jouez et découvrez comment les fausses nouvelles se répandent sur Internet](https://getbadnews.com/#intro)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      # Réduire notre empreinte numérique
+
+      Nous n'avons pas à avoir peur d’utiliser Internet. Toutefois, il est recommandé de prendre des précautions pour rester en sécurité.
+
+      ##Pensez-y deux fois avant de créer un compte.
+
+      * Réfléchissez bien en vous inscrivant à un service. En avez-vous vraiment besoin? Quelles sont les données collectées par l'entreprise? Comment le service utilisera-t-il ces données? Chaque fois que vous créez un compte, vous vous exposez à un nouveau risque de vente, de fuite ou de vol de données.
+
+      ##Mettez à jour vos paramètres et vos autorisations.
+
+      * La plupart des sites Web ont des options de confidentialité : vous pouvez décider des informations que vous rendez publiques et des données qui sont collectées. Ces options se trouvent dans les sections « Paramètres », « Réglages », « Préférences » ou « Profil » des sites et des applications.
+      * Si vous avez de la difficulté à trouver la section, allez sur un moteur de recherche et cherchez le nom du site + « paramètres de confidentialité ».
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Réduire notre empreinte numérique
+
+      ##Pensez avant de publier.
+
+      * *« Tout ce que vous dites peut être utilisé contre vous. »*
+      * Lorsque vous publiez vos photos et vos messages, ayez conscience de votre public. Même si vous effacez votre contenu par la suite, cela ne garantit pas qu’il est complètement disparu d'Internet.<sup>1</sup>
+
+      ##Supprimez les vieux comptes que vous n’utilisez plus.
+
+      * En supprimant vos vieux comptes sur des services que vous n’utilisez plus, vous réduisez les chances que vos informations puissent être trouvées, volées ou divulguées. Un service de moins, un endroit de moins dont vous devrez vous inquiéter.
+
+      ##Utilisez plusieurs adresses courriel pour vos différents services.
+
+      * Si vous utilisez plusieurs adresses courriel pour vos différents services, il sera plus difficile pour les malfaiteurs de vous retracer et d'utiliser vos informations après une fuite de données. Pour gérer vos différents comptes et identifiants, il est conseillé d’utiliser un gestionnaire de mot de passe.
+
+      ---
+      ###Notes
+      1. Il existe des sites Web qui prennent automatiquement des captures d’écran des réseaux sociaux pour les archiver.
+      </script>
+    </section>
+
+    <section class="slide service_table">
+      <style>
+        .service_table td {
+          font-size: 80%;
+          text-align:left;
+        }
+      </style>
+      <h1>Autres outils et conseils</h1>
+
+      <h2>Utilisez d’autres services.</h2>
+
+      De nombreux services populaires vendent vos données et n’ont pas votre vie privée à cœur. Pensez à utiliser d’autres services, si vous tenez à la confidentialité de vos données.<br>
+<br>
+      <table>
+        <thead>
+          <tr>
+            <th>Si vous utilisez...</th><th>Pensez à changer pour...</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              Google (moteur de recherche)
+            </td>
+            <td>
+              DuckDuckGo - <a href="https://duckduckgo.com/">https://duckduckgo.com/</a>
+              <br>
+              StartPage - <a href="https://www.startpage.com/">https://www.startpage.com/</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Gmail (service de messagerie par courriel)
+            </td>
+            <td>
+              FastMail - <a href="https://www.fastmail.com/">https://www.fastmail.com/</a>
+              <br>
+              ProtonMail - <a href="https://protonmail.com/">https://protonmail.com/</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Chrome (navigateur Web)
+            </td>
+            <td>
+              Firefox - <a href="https://www.mozilla.org/firefox/">https://www.mozilla.org/firefox/</a>
+              <br>
+              Brave - <a href="https://brave.com/">https://brave.com</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+               Facebook Messenger (service de clavardage et de messagerie)
+            </td>
+            <td>
+              Signal <a href ="https://signal.org/">https://signal.org/</a>
+              <br>
+              Telegram <a href ="https://telegram.org/">https://telegram.org/</a>
+            </td>
+          </tr>
+      </table>
+
+      <hr>
+      <h3> Ressources</h3>
+      <ul>
+        <li>
+          Vous trouverez plus d’informations sur les services favorisant la confidentialité et la sécurité <a href="https://www.reddit.com/r/degoogle/wiki/index">ici</a>.
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Autres outils et conseils
+
+      ##Installez un bloqueur de publicités sur votre navigateur.
+      * Non seulement les publicités nous énervent, mais elles surveillent notre comportement sur différents sites Web.
+      * Essayez les bloqueurs uBlock Origin et Adblock Plus (cherchez ces termes exacts, car il y a plusieurs faux bloqueurs avec des noms semblables). En plus d’enlever les publicités, les bloqueurs rendent les sites plus rapides et réduisent l’utilisation de données mobiles.
+
+      ##Utilisez le mode Incognito ou la navigation privée.
+      * La plupart des navigateurs ont un mode de navigation privée ou « incognito » qui limite la surveillance sur les sites Web. Par contre, vous devez savoir que la navigation privée n'empêche pas toute surveillance. Si vous vous connectez sur un site Web avec votre compte, vos activités sur ce site peuvent quand même être surveillées.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Autres outils et conseils favorisant la confidentialité
+
+      ##Utilisez un réseau privé virtuel (VPN).
+      * Les réseaux privés virtuels (VPN) sont des outils qui rendent vos activités sur Internet plus sécuritaires et empêchent la surveillance.
+      * Les VPN sont particulièrement pratiques quand vous utilisez des réseaux Wi-Fi publics dont la sécurité est douteuse.
+      * Cependant, comme le mode de navigation privée, un site Web peut quand même vous surveiller si vous vous connectez à votre compte.
+      * Évitez les VPN gratuits, car ils vendent vos données pour rentabiliser leur service.
+
+      ---
+
+      Les options indiquées sur ces diapositives ne sont que des suggestions. Faites toujours des recherches et lisez des critiques avant de choisir un outil ou de vous inscrire à un service.
+
+      ---
+      ###Plus d’informations
+      * [Guide de démarrage VPN](https://thebestvpn.com/what-is-vpn-beginners-guide/)
+      </script>
+    </section>
+
+<!--  -->
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Conclusion
+
+      Après avoir découvert les différents types de menaces en ligne, vous pourriez avoir l’impression qu’Internet est un endroit dangereux rempli d'espions et de pirates qui essaient de voler vos informations. Certains d’entre vous pourriez avoir envie de prendre des mesures extrêmes et d'éliminer la technologie de votre vie!
+
+      Nul besoin de tout abandonner : pensez aux voitures.
+
+      Certes, les voitures causent des accidents et créent de la pollution. Toutefois, ce n'est pas une raison d'avoir peur de conduire. Les voitures nous ont permis de nous déplacer librement et ont amélioré notre qualité de vie.
+
+      Il est impossible d'être 100 % en sécurité. Tout de même, en prenant de simples précautions vous pouvez renforcer considérablement votre sécurité (p. ex., porter une ceinture de sécurité en voiture).
+
+      Faites preuve de vigilance et profitez des avantages de la technologie!
+      </script>
+    </section>
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span>Cybersécurité et vie privée</span>
+      </h2>
+<!--
+      <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="nom de la formatrice">
+      <h2><span class="cursive">avec</span> </h2>
+      <ul>
+        <li><a href="mailto:"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="http://twitter.com/"></a></li>
+      </ul>
+-->
+      <p class="attribution">Diapositives créées par AC</a> à partir de <a href="https://github.com/LeaVerou/csss">SlideShow par Lea Verou</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
