@@ -1,11 +1,11 @@
-# Ladies Learning code
+# Teens Learning code
 # Digital Safety + Privacy Meetup
 
 ## Quick Links:
 
-Preview meetup slides: [https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/slides-en.html](https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/slides-en.html)
+Preview meetup slides: [https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/slides-en.html](https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/slides-en.html)
 
-Instructor notes: [https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/notes-en.html](https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/notes-en.html)
+Instructor notes: [https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/notes-en.html](https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/notes-en.html)
 
 ## ATTRIBUTIONS:
 
@@ -28,14 +28,14 @@ Here’s an easy way to attribute content back to us - please include it whereve
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
 
-# Femmes en programmation
+# Ados en programmation
 # Cybersécurité et vie privée : rencontre
 
 ## Liens rapides :
 
-Diapositives de la rencontre : [https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/slides-fr.html](https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/slides-fr.html)
+Diapositives de la rencontre : [https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/slides-fr.html](https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/slides-fr.html)
 
-Notes de la formatrice : [https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/notes-fr.html](https://ladieslearningcode.github.io/llc-digital-safety-and-privacy/notes-fr.html)
+Notes de la formatrice : [https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/notes-fr.html](https://ladieslearningcode.github.io/teenslc-digital-safety-and-privacy/notes-fr.html)
 
 ## ATTRIBUTIONS :
 
